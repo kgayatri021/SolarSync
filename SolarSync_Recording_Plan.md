@@ -13,7 +13,7 @@
 
 ## Scope and recording status
 
-This plan maps the narrated demonstration to the application's seven Streamlit pages and current implementation. On 2026-10-09, the local app responded successfully and all seven pages were captured in a real Microsoft Edge browser recording. A manual Smart Scheduler run returned `OPTIMAL`; a Scenario Simulator run completed and displayed its results. The recording shows export controls but does not claim that a report was downloaded or independently checked.
+This plan maps the narrated demonstration to the application's seven Streamlit pages and current implementation. On 2026-10-09, the local app responded successfully and all seven page headings were browser-verified. The real Microsoft Edge recording shows the Executive Dashboard, Factory Intelligence, Smart Scheduler, Scenario Simulator, Energy & Workforce, and History & System Health; the About page is omitted because some of its claims exceed the implementation. A manual Smart Scheduler run returned `OPTIMAL`; a Scenario Simulator run completed and displayed its results. The recording shows export controls but does not claim that a report was downloaded or independently checked.
 
 The final video combines genuine application captures with opening and closing title cards, a female synthetic voice-over, and English captions. The available voice is Microsoft Hazel Desktop (English, Great Britain), not Indian English. No worker names are shown.
 
