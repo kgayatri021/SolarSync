@@ -1,0 +1,9 @@
+tariff_id,state,utility,consumer_category,voltage_level,time_period,start_time,end_time,energy_rate_rs_per_kwh,demand_charge_rs_per_kw,fixed_charge,peak_period,off_peak_period,effective_from,effective_to
+TAR_AP_HT1_11KV_NORM,Andhra Pradesh,APEPDCL,HT Category-I Industry (>100 kW),11 kV HT,Normal ToD,06:00:00,18:00:00,7.25,475.0,100.0,False,False,2026-04-01,2027-03-31
+TAR_AP_HT1_11KV_PEAK,Andhra Pradesh,APEPDCL,HT Category-I Industry (>100 kW),11 kV HT,Peak ToD,18:00:00,22:00:00,9.25,475.0,100.0,True,False,2026-04-01,2027-03-31
+TAR_AP_HT1_11KV_OFFPEAK,Andhra Pradesh,APEPDCL,HT Category-I Industry (>100 kW),11 kV HT,Off-Peak ToD,22:00:00,06:00:00,5.75,475.0,100.0,False,True,2026-04-01,2027-03-31
+TAR_AP_HT1_33KV_NORM,Andhra Pradesh,APEPDCL,HT Category-I Industry Heavy,33 kV HT,Normal ToD,06:00:00,18:00:00,6.85,475.0,100.0,False,False,2026-04-01,2027-03-31
+TAR_AP_HT1_33KV_PEAK,Andhra Pradesh,APEPDCL,HT Category-I Industry Heavy,33 kV HT,Peak ToD,18:00:00,22:00:00,8.85,475.0,100.0,True,False,2026-04-01,2027-03-31
+TAR_AP_HT1_33KV_OFFPEAK,Andhra Pradesh,APEPDCL,HT Category-I Industry Heavy,33 kV HT,Off-Peak ToD,22:00:00,06:00:00,5.35,475.0,100.0,False,True,2026-04-01,2027-03-31
+TAR_AP_LT3_IND_STANDARD,Andhra Pradesh,APEPDCL,LT Category-III Industry (<=100 kW),415 V LT,Flat Rate Standard,00:00:00,23:59:59,6.75,120.0,75.0,False,False,2026-04-01,2027-03-31
+TAR_AP_LT3_IND_MICRO,Andhra Pradesh,APEPDCL,LT Category-III Micro Enterprises,230 V LT Single Phase,Flat Rate Micro,00:00:00,23:59:59,6.25,80.0,50.0,False,False,2026-04-01,2027-03-31

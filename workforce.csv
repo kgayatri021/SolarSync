@@ -1,0 +1,470 @@
+worker_id,factory_id,worker_name,worker_role,skill_level,primary_machine_skill,secondary_machine_skill,shift_start,shift_end,hourly_labour_cost,overtime_allowed,overtime_cost_per_hour,availability_status,productivity_factor,maximum_daily_hours
+WRK_001,FAC_001,Suresh Verma,Process Operator,1,MAC_002,MAC_003,06:00:00,14:00:00,128.88,False,128.88,Available,1.1,8
+WRK_002,FAC_001,Venkat Sarma,Process Operator,2,MAC_003,MAC_004,14:00:00,22:00:00,162.41,True,284.22,Available,1.0,12
+WRK_003,FAC_001,Appala Kumar,Process Operator,3,MAC_004,MAC_005,06:00:00,14:00:00,248.09,True,434.16,Available,0.98,12
+WRK_004,FAC_001,Satyanarayana Patnaik,Packaging Operator,1,MAC_005,MAC_001,14:00:00,22:00:00,140.83,True,246.45,Available,1.1,12
+WRK_005,FAC_001,Prasad Naidu,Packaging Operator,2,MAC_001,MAC_002,06:00:00,14:00:00,161.53,True,282.68,Leave,0.93,12
+WRK_006,FAC_001,Srinivas Vardhan,Packaging Operator,3,MAC_002,MAC_003,14:00:00,22:00:00,231.6,False,231.6,Training,1.04,8
+WRK_007,FAC_001,Kalyan Reddy,Packaging Operator,1,MAC_003,MAC_004,06:00:00,14:00:00,127.08,True,222.39,Limited Availability,1.11,12
+WRK_008,FAC_002,Mahesh Chowdary,Fabrication Operator,1,MAC_006,MAC_007,06:00:00,14:00:00,134.7,False,134.7,Available,0.95,8
+WRK_009,FAC_002,Rambabu Varma,Fabrication Operator,2,MAC_007,MAC_008,14:00:00,22:00:00,182.54,True,319.44,Available,1.11,12
+WRK_010,FAC_002,Jagadeesh Rao,Fabrication Operator,3,MAC_008,MAC_009,06:00:00,14:00:00,235.59,True,412.28,Available,0.91,12
+WRK_011,FAC_002,Nageswara Verma,Fabrication Operator,1,MAC_009,MAC_006,14:00:00,22:00:00,127.47,True,223.07,Available,0.95,12
+WRK_012,FAC_002,Venkatesh Sarma,Fabrication Operator,2,MAC_006,MAC_007,06:00:00,14:00:00,170.13,True,297.73,Leave,1.05,12
+WRK_013,FAC_002,Chandra Kumar,Machine Operator,3,MAC_007,MAC_008,14:00:00,22:00:00,257.11,False,257.11,Training,1.09,8
+WRK_014,FAC_002,Subba Patnaik,Machine Operator,1,MAC_008,MAC_009,06:00:00,14:00:00,122.53,True,214.43,Limited Availability,0.94,12
+WRK_015,FAC_002,Ganesh Naidu,Machine Operator,2,MAC_009,MAC_006,14:00:00,22:00:00,208.8,True,365.4,Available,0.9,12
+WRK_016,FAC_003,Durga Vardhan,Electrical Technician,1,MAC_010,MAC_011,06:00:00,14:00:00,127.56,False,127.56,Available,1.03,8
+WRK_017,FAC_003,Rajesh Reddy,Quality Inspector,2,MAC_011,MAC_012,14:00:00,22:00:00,184.19,True,322.33,Available,1.07,12
+WRK_018,FAC_003,Kiran Chowdary,Quality Inspector,3,MAC_012,MAC_013,06:00:00,14:00:00,241.9,True,423.32,Available,0.91,12
+WRK_019,FAC_003,Vijay Varma,Line Supervisor,1,MAC_013,MAC_010,14:00:00,22:00:00,128.61,True,225.07,Available,1.1,12
+WRK_020,FAC_003,Ramesh Rao,Machine Operator,2,MAC_010,MAC_011,06:00:00,14:00:00,179.31,True,313.79,Leave,1.04,12
+WRK_021,FAC_003,Suresh Verma,Machine Operator,3,MAC_011,MAC_012,14:00:00,22:00:00,255.43,False,255.43,Training,1.06,8
+WRK_022,FAC_003,Venkat Sarma,Machine Operator,1,MAC_012,MAC_013,06:00:00,14:00:00,122.24,True,213.92,Limited Availability,0.92,12
+WRK_023,FAC_003,Appala Kumar,Machine Operator,2,MAC_013,MAC_010,14:00:00,22:00:00,197.79,True,346.13,Available,1.05,12
+WRK_024,FAC_003,Satyanarayana Patnaik,Machine Operator,3,MAC_010,MAC_011,06:00:00,14:00:00,224.26,True,392.45,Available,0.94,12
+WRK_025,FAC_003,Prasad Naidu,Machine Operator,1,MAC_011,MAC_012,14:00:00,22:00:00,147.28,True,257.74,Available,1.1,12
+WRK_026,FAC_003,Srinivas Vardhan,Machine Operator,2,MAC_012,MAC_013,06:00:00,14:00:00,171.44,False,171.44,Available,1.02,8
+WRK_027,FAC_004,Kalyan Reddy,Machine Operator,1,MAC_017,MAC_018,06:00:00,14:00:00,123.3,False,123.3,Available,0.97,8
+WRK_028,FAC_004,Mahesh Chowdary,Machine Operator,2,MAC_018,MAC_019,14:00:00,22:00:00,172.34,True,301.6,Available,1.09,12
+WRK_029,FAC_004,Rambabu Varma,Packaging Operator,3,MAC_019,MAC_020,22:00:00,06:00:00,249.79,True,437.13,Available,0.99,12
+WRK_030,FAC_004,Jagadeesh Rao,Packaging Operator,1,MAC_020,MAC_021,06:00:00,14:00:00,131.5,True,230.12,Available,0.95,12
+WRK_031,FAC_004,Nageswara Verma,Packaging Operator,2,MAC_021,MAC_014,14:00:00,22:00:00,204.95,True,358.66,Leave,1.02,12
+WRK_032,FAC_004,Venkatesh Sarma,Packaging Operator,3,MAC_014,MAC_015,22:00:00,06:00:00,243.75,False,243.75,Training,0.91,8
+WRK_033,FAC_004,Chandra Kumar,Packaging Operator,1,MAC_015,MAC_016,06:00:00,14:00:00,143.05,True,250.34,Limited Availability,0.95,12
+WRK_034,FAC_004,Subba Patnaik,Packaging Operator,2,MAC_016,MAC_017,14:00:00,22:00:00,174.33,True,305.08,Available,0.91,12
+WRK_035,FAC_004,Ganesh Naidu,Process Operator,3,MAC_017,MAC_018,22:00:00,06:00:00,261.42,True,457.49,Available,0.91,12
+WRK_036,FAC_004,Durga Vardhan,Process Operator,1,MAC_018,MAC_019,06:00:00,14:00:00,134.07,True,234.62,Available,1.02,12
+WRK_037,FAC_004,Rajesh Reddy,Process Operator,2,MAC_019,MAC_020,14:00:00,22:00:00,206.71,False,206.71,Available,1.07,8
+WRK_038,FAC_004,Kiran Chowdary,Process Operator,3,MAC_020,MAC_021,22:00:00,06:00:00,241.83,True,423.2,Leave,1.08,12
+WRK_039,FAC_004,Vijay Varma,Quality Inspector,1,MAC_021,MAC_014,06:00:00,14:00:00,126.51,True,221.39,Training,1.04,12
+WRK_040,FAC_004,Ramesh Rao,Quality Inspector,2,MAC_014,MAC_015,14:00:00,22:00:00,166.39,True,291.18,Limited Availability,0.97,12
+WRK_041,FAC_004,Suresh Verma,Quality Inspector,3,MAC_015,MAC_016,22:00:00,06:00:00,242.52,True,424.41,Available,0.98,12
+WRK_042,FAC_004,Venkat Sarma,Maintenance Technician,1,MAC_016,MAC_017,06:00:00,14:00:00,147.55,False,147.55,Available,1.11,8
+WRK_043,FAC_005,Appala Kumar,Maintenance Technician,1,MAC_023,MAC_024,06:00:00,14:00:00,144.73,False,144.73,Available,0.94,8
+WRK_044,FAC_005,Satyanarayana Patnaik,Line Supervisor,2,MAC_024,MAC_025,14:00:00,22:00:00,209.1,True,365.93,Available,0.93,12
+WRK_045,FAC_005,Prasad Naidu,Machine Operator,3,MAC_025,MAC_026,22:00:00,06:00:00,256.03,True,448.05,Available,1.07,12
+WRK_046,FAC_005,Srinivas Vardhan,Machine Operator,1,MAC_026,MAC_027,06:00:00,14:00:00,142.55,True,249.46,Available,1.02,12
+WRK_047,FAC_005,Kalyan Reddy,Machine Operator,2,MAC_027,MAC_022,14:00:00,22:00:00,206.61,True,361.57,Leave,0.92,12
+WRK_048,FAC_005,Mahesh Chowdary,Machine Operator,3,MAC_022,MAC_023,22:00:00,06:00:00,228.93,False,228.93,Training,0.93,8
+WRK_049,FAC_005,Rambabu Varma,Machine Operator,1,MAC_023,MAC_024,06:00:00,14:00:00,132.53,True,231.93,Limited Availability,1.11,12
+WRK_050,FAC_005,Jagadeesh Rao,Machine Operator,2,MAC_024,MAC_025,14:00:00,22:00:00,196.34,True,343.6,Available,0.97,12
+WRK_051,FAC_005,Nageswara Verma,Machine Operator,3,MAC_025,MAC_026,22:00:00,06:00:00,263.01,True,460.27,Available,0.93,12
+WRK_052,FAC_005,Venkatesh Sarma,Machine Operator,1,MAC_026,MAC_027,06:00:00,14:00:00,146.12,True,255.71,Available,1.02,12
+WRK_053,FAC_005,Chandra Kumar,Machine Operator,2,MAC_027,MAC_022,14:00:00,22:00:00,177.14,False,177.14,Available,1.05,8
+WRK_054,FAC_005,Subba Patnaik,Packaging Operator,3,MAC_022,MAC_023,22:00:00,06:00:00,268.84,True,470.47,Leave,0.93,12
+WRK_055,FAC_005,Ganesh Naidu,Packaging Operator,1,MAC_023,MAC_024,06:00:00,14:00:00,128.9,True,225.58,Training,1.09,12
+WRK_056,FAC_006,Durga Vardhan,Packaging Operator,1,MAC_028,MAC_029,06:00:00,14:00:00,145.59,False,145.59,Available,0.95,8
+WRK_057,FAC_006,Rajesh Reddy,Packaging Operator,2,MAC_029,MAC_030,14:00:00,22:00:00,165.53,True,289.68,Available,0.91,12
+WRK_058,FAC_006,Kiran Chowdary,Packaging Operator,3,MAC_030,MAC_031,22:00:00,06:00:00,267.76,True,468.58,Available,1.01,12
+WRK_059,FAC_006,Vijay Varma,Packaging Operator,1,MAC_031,MAC_032,06:00:00,14:00:00,121.98,True,213.47,Available,0.94,12
+WRK_060,FAC_006,Ramesh Rao,Process Operator,2,MAC_032,MAC_033,14:00:00,22:00:00,170.72,True,298.76,Leave,0.91,12
+WRK_061,FAC_006,Suresh Verma,Process Operator,3,MAC_033,MAC_034,22:00:00,06:00:00,233.31,False,233.31,Training,1.08,8
+WRK_062,FAC_006,Venkat Sarma,Process Operator,1,MAC_034,MAC_028,06:00:00,14:00:00,120.86,True,211.5,Limited Availability,0.94,12
+WRK_063,FAC_006,Appala Kumar,Process Operator,2,MAC_028,MAC_029,14:00:00,22:00:00,161.93,True,283.38,Available,1.1,12
+WRK_064,FAC_006,Satyanarayana Patnaik,Quality Inspector,3,MAC_029,MAC_030,22:00:00,06:00:00,261.98,True,458.47,Available,0.94,12
+WRK_065,FAC_006,Prasad Naidu,Quality Inspector,1,MAC_030,MAC_031,06:00:00,14:00:00,143.94,True,251.89,Available,1.09,12
+WRK_066,FAC_006,Srinivas Vardhan,Quality Inspector,2,MAC_031,MAC_032,14:00:00,22:00:00,190.05,False,190.05,Available,1.03,8
+WRK_067,FAC_006,Kalyan Reddy,Maintenance Technician,3,MAC_032,MAC_033,22:00:00,06:00:00,246.51,True,431.39,Leave,0.95,12
+WRK_068,FAC_006,Mahesh Chowdary,Maintenance Technician,1,MAC_033,MAC_034,06:00:00,14:00:00,122.66,True,214.66,Training,1.0,12
+WRK_069,FAC_007,Rambabu Varma,Line Supervisor,1,MAC_035,MAC_036,06:00:00,14:00:00,130.85,False,130.85,Available,1.06,8
+WRK_070,FAC_007,Jagadeesh Rao,Machine Operator,2,MAC_036,MAC_037,14:00:00,22:00:00,188.05,True,329.09,Available,1.02,12
+WRK_071,FAC_007,Nageswara Verma,Machine Operator,3,MAC_037,MAC_035,06:00:00,14:00:00,256.0,True,448.0,Available,0.91,12
+WRK_072,FAC_007,Venkatesh Sarma,Machine Operator,1,MAC_035,MAC_036,14:00:00,22:00:00,125.63,True,219.85,Available,1.04,12
+WRK_073,FAC_007,Chandra Kumar,Machine Operator,2,MAC_036,MAC_037,06:00:00,14:00:00,182.96,True,320.18,Leave,1.02,12
+WRK_074,FAC_007,Subba Patnaik,Machine Operator,3,MAC_037,MAC_035,14:00:00,22:00:00,220.63,False,220.63,Training,1.01,8
+WRK_075,FAC_007,Ganesh Naidu,Machine Operator,1,MAC_035,MAC_036,06:00:00,14:00:00,135.33,True,236.83,Limited Availability,1.05,12
+WRK_076,FAC_007,Durga Vardhan,Machine Operator,2,MAC_036,MAC_037,14:00:00,22:00:00,190.27,True,332.97,Available,0.95,12
+WRK_077,FAC_007,Rajesh Reddy,Machine Operator,3,MAC_037,MAC_035,06:00:00,14:00:00,260.15,True,455.26,Available,1.03,12
+WRK_078,FAC_007,Kiran Chowdary,Senior Machine Operator,1,MAC_035,MAC_036,14:00:00,22:00:00,137.88,True,241.29,Available,0.97,12
+WRK_079,FAC_008,Vijay Varma,Welder,1,MAC_041,MAC_038,06:00:00,14:00:00,131.89,False,131.89,Available,1.08,8
+WRK_080,FAC_008,Ramesh Rao,Welder,2,MAC_038,MAC_039,14:00:00,22:00:00,189.91,True,332.34,Available,1.12,12
+WRK_081,FAC_008,Suresh Verma,Welder,3,MAC_039,MAC_040,06:00:00,14:00:00,228.12,True,399.21,Available,1.09,12
+WRK_082,FAC_008,Venkat Sarma,Welder,1,MAC_040,MAC_041,14:00:00,22:00:00,130.17,True,227.8,Available,0.91,12
+WRK_083,FAC_008,Appala Kumar,Fabrication Operator,2,MAC_041,MAC_038,06:00:00,14:00:00,176.57,True,309.0,Leave,1.02,12
+WRK_084,FAC_008,Satyanarayana Patnaik,Fabrication Operator,3,MAC_038,MAC_039,14:00:00,22:00:00,240.59,False,240.59,Training,1.0,8
+WRK_085,FAC_008,Prasad Naidu,Fabrication Operator,1,MAC_039,MAC_040,06:00:00,14:00:00,143.11,True,250.44,Limited Availability,1.04,12
+WRK_086,FAC_008,Srinivas Vardhan,Fabrication Operator,2,MAC_040,MAC_041,14:00:00,22:00:00,180.5,True,315.88,Available,1.02,12
+WRK_087,FAC_008,Kalyan Reddy,Fabrication Operator,3,MAC_041,MAC_038,06:00:00,14:00:00,227.42,True,397.98,Available,1.01,12
+WRK_088,FAC_009,Mahesh Chowdary,Quality Inspector,1,MAC_043,MAC_044,06:00:00,14:00:00,131.23,False,131.23,Available,0.97,8
+WRK_089,FAC_009,Rambabu Varma,Machine Operator,2,MAC_044,MAC_042,14:00:00,22:00:00,191.04,True,334.32,Available,0.9,12
+WRK_090,FAC_009,Jagadeesh Rao,Machine Operator,3,MAC_042,MAC_043,06:00:00,14:00:00,227.58,True,398.27,Available,1.01,12
+WRK_091,FAC_009,Nageswara Verma,Machine Operator,1,MAC_043,MAC_044,14:00:00,22:00:00,145.93,True,255.38,Available,1.08,12
+WRK_092,FAC_009,Venkatesh Sarma,Machine Operator,2,MAC_044,MAC_042,06:00:00,14:00:00,179.26,True,313.7,Leave,1.1,12
+WRK_093,FAC_009,Chandra Kumar,Maintenance Technician,3,MAC_042,MAC_043,14:00:00,22:00:00,235.06,False,235.06,Training,1.04,8
+WRK_094,FAC_009,Subba Patnaik,Maintenance Technician,1,MAC_043,MAC_044,06:00:00,14:00:00,142.31,True,249.04,Limited Availability,0.9,12
+WRK_095,FAC_009,Ganesh Naidu,Line Supervisor,2,MAC_044,MAC_042,14:00:00,22:00:00,192.48,True,336.84,Available,1.06,12
+WRK_096,FAC_010,Durga Vardhan,Machine Operator,1,MAC_045,MAC_046,06:00:00,14:00:00,122.66,False,122.66,Available,0.94,8
+WRK_097,FAC_010,Rajesh Reddy,Machine Operator,2,MAC_046,MAC_047,14:00:00,22:00:00,193.38,True,338.41,Available,1.1,12
+WRK_098,FAC_010,Kiran Chowdary,Machine Operator,3,MAC_047,MAC_048,22:00:00,06:00:00,233.73,True,409.03,Available,0.99,12
+WRK_099,FAC_010,Vijay Varma,Machine Operator,1,MAC_048,MAC_049,06:00:00,14:00:00,141.03,True,246.8,Available,0.92,12
+WRK_100,FAC_010,Ramesh Rao,Machine Operator,2,MAC_049,MAC_050,14:00:00,22:00:00,198.49,True,347.36,Leave,1.08,12
+WRK_101,FAC_010,Suresh Verma,Machine Operator,3,MAC_050,MAC_045,22:00:00,06:00:00,220.2,False,220.2,Training,1.01,8
+WRK_102,FAC_010,Venkat Sarma,Machine Operator,1,MAC_045,MAC_046,06:00:00,14:00:00,128.22,True,224.38,Limited Availability,1.11,12
+WRK_103,FAC_010,Appala Kumar,Senior Machine Operator,2,MAC_046,MAC_047,14:00:00,22:00:00,198.25,True,346.94,Available,0.94,12
+WRK_104,FAC_010,Satyanarayana Patnaik,Senior Machine Operator,3,MAC_047,MAC_048,22:00:00,06:00:00,255.54,True,447.19,Available,1.07,12
+WRK_105,FAC_010,Prasad Naidu,Senior Machine Operator,1,MAC_048,MAC_049,06:00:00,14:00:00,120.38,True,210.66,Available,1.03,12
+WRK_106,FAC_010,Srinivas Vardhan,Senior Machine Operator,2,MAC_049,MAC_050,14:00:00,22:00:00,184.29,False,184.29,Available,1.04,8
+WRK_107,FAC_010,Kalyan Reddy,Senior Machine Operator,3,MAC_050,MAC_045,22:00:00,06:00:00,237.01,True,414.77,Leave,0.93,12
+WRK_108,FAC_010,Mahesh Chowdary,Production Technician,1,MAC_045,MAC_046,06:00:00,14:00:00,120.68,True,211.19,Training,1.07,12
+WRK_109,FAC_010,Rambabu Varma,Production Technician,2,MAC_046,MAC_047,14:00:00,22:00:00,183.26,True,320.7,Limited Availability,0.95,12
+WRK_110,FAC_011,Jagadeesh Rao,Packaging Operator,1,MAC_057,MAC_058,06:00:00,14:00:00,124.67,False,124.67,Available,0.9,8
+WRK_111,FAC_011,Nageswara Verma,Quality Inspector,2,MAC_058,MAC_051,14:00:00,22:00:00,199.94,True,349.89,Available,1.06,12
+WRK_112,FAC_011,Venkatesh Sarma,Quality Inspector,3,MAC_051,MAC_052,22:00:00,06:00:00,256.03,True,448.05,Available,1.02,12
+WRK_113,FAC_011,Chandra Kumar,Quality Inspector,1,MAC_052,MAC_053,06:00:00,14:00:00,126.26,True,220.96,Available,0.9,12
+WRK_114,FAC_011,Subba Patnaik,Machine Operator,2,MAC_053,MAC_054,14:00:00,22:00:00,181.29,True,317.26,Leave,0.99,12
+WRK_115,FAC_011,Ganesh Naidu,Machine Operator,3,MAC_054,MAC_055,22:00:00,06:00:00,269.72,False,269.72,Training,1.08,8
+WRK_116,FAC_011,Durga Vardhan,Machine Operator,1,MAC_055,MAC_056,06:00:00,14:00:00,148.68,True,260.19,Limited Availability,1.03,12
+WRK_117,FAC_011,Rajesh Reddy,Machine Operator,2,MAC_056,MAC_057,14:00:00,22:00:00,167.45,True,293.04,Available,0.92,12
+WRK_118,FAC_011,Kiran Chowdary,Maintenance Technician,3,MAC_057,MAC_058,22:00:00,06:00:00,238.14,True,416.75,Available,0.93,12
+WRK_119,FAC_011,Vijay Varma,Maintenance Technician,1,MAC_058,MAC_051,06:00:00,14:00:00,125.5,True,219.62,Available,0.95,12
+WRK_120,FAC_011,Ramesh Rao,Line Supervisor,2,MAC_051,MAC_052,14:00:00,22:00:00,169.86,False,169.86,Available,0.92,8
+WRK_121,FAC_011,Suresh Verma,Process Operator,3,MAC_052,MAC_053,22:00:00,06:00:00,237.95,True,416.41,Leave,0.97,12
+WRK_122,FAC_011,Venkat Sarma,Process Operator,1,MAC_053,MAC_054,06:00:00,14:00:00,130.35,True,228.11,Training,1.04,12
+WRK_123,FAC_011,Appala Kumar,Process Operator,2,MAC_054,MAC_055,14:00:00,22:00:00,195.31,True,341.79,Limited Availability,1.0,12
+WRK_124,FAC_011,Satyanarayana Patnaik,Process Operator,3,MAC_055,MAC_056,22:00:00,06:00:00,265.43,True,464.5,Available,0.98,12
+WRK_125,FAC_012,Prasad Naidu,CNC Operator,1,MAC_060,MAC_061,06:00:00,14:00:00,140.5,False,140.5,Available,0.94,8
+WRK_126,FAC_012,Srinivas Vardhan,CNC Operator,2,MAC_061,MAC_062,14:00:00,22:00:00,185.87,True,325.27,Available,1.05,12
+WRK_127,FAC_012,Kalyan Reddy,CNC Operator,3,MAC_062,MAC_059,06:00:00,14:00:00,220.92,True,386.61,Available,1.03,12
+WRK_128,FAC_012,Mahesh Chowdary,Welder,1,MAC_059,MAC_060,14:00:00,22:00:00,128.09,True,224.16,Available,1.06,12
+WRK_129,FAC_012,Rambabu Varma,Welder,2,MAC_060,MAC_061,06:00:00,14:00:00,177.0,True,309.75,Leave,0.95,12
+WRK_130,FAC_012,Jagadeesh Rao,Welder,3,MAC_061,MAC_062,14:00:00,22:00:00,260.79,False,260.79,Training,1.1,8
+WRK_131,FAC_012,Nageswara Verma,Welder,1,MAC_062,MAC_059,06:00:00,14:00:00,141.2,True,247.1,Limited Availability,1.0,12
+WRK_132,FAC_012,Venkatesh Sarma,Welder,2,MAC_059,MAC_060,14:00:00,22:00:00,160.02,True,280.04,Available,0.92,12
+WRK_133,FAC_012,Chandra Kumar,Fabrication Operator,3,MAC_060,MAC_061,06:00:00,14:00:00,255.91,True,447.84,Available,1.02,12
+WRK_134,FAC_012,Subba Patnaik,Fabrication Operator,1,MAC_061,MAC_062,14:00:00,22:00:00,139.51,True,244.14,Available,0.91,12
+WRK_135,FAC_012,Ganesh Naidu,Fabrication Operator,2,MAC_062,MAC_059,06:00:00,14:00:00,191.91,False,191.91,Available,1.05,8
+WRK_136,FAC_013,Durga Vardhan,Production Technician,1,MAC_063,MAC_064,06:00:00,14:00:00,123.06,False,123.06,Available,1.02,8
+WRK_137,FAC_013,Rajesh Reddy,Production Technician,2,MAC_064,MAC_065,14:00:00,22:00:00,180.53,True,315.93,Available,1.04,12
+WRK_138,FAC_013,Kiran Chowdary,Electrical Technician,3,MAC_065,MAC_066,06:00:00,14:00:00,226.43,True,396.25,Available,1.11,12
+WRK_139,FAC_013,Vijay Varma,Electrical Technician,1,MAC_066,MAC_063,14:00:00,22:00:00,134.75,True,235.81,Available,1.09,12
+WRK_140,FAC_013,Ramesh Rao,Electrical Technician,2,MAC_063,MAC_064,06:00:00,14:00:00,183.66,True,321.4,Leave,0.9,12
+WRK_141,FAC_013,Suresh Verma,Electrical Technician,3,MAC_064,MAC_065,14:00:00,22:00:00,246.89,False,246.89,Training,0.92,8
+WRK_142,FAC_013,Venkat Sarma,Quality Inspector,1,MAC_065,MAC_066,06:00:00,14:00:00,121.21,True,212.12,Limited Availability,0.93,12
+WRK_143,FAC_013,Appala Kumar,Quality Inspector,2,MAC_066,MAC_063,14:00:00,22:00:00,202.13,True,353.73,Available,0.94,12
+WRK_144,FAC_013,Satyanarayana Patnaik,Line Supervisor,3,MAC_063,MAC_064,06:00:00,14:00:00,267.81,True,468.67,Available,0.95,12
+WRK_145,FAC_014,Prasad Naidu,Line Supervisor,1,MAC_067,MAC_068,06:00:00,14:00:00,147.34,False,147.34,Available,0.91,8
+WRK_146,FAC_014,Srinivas Vardhan,Machine Operator,2,MAC_068,MAC_069,14:00:00,22:00:00,197.14,True,345.0,Available,1.11,12
+WRK_147,FAC_014,Kalyan Reddy,Machine Operator,3,MAC_069,MAC_070,06:00:00,14:00:00,262.24,True,458.92,Available,1.09,12
+WRK_148,FAC_014,Mahesh Chowdary,Machine Operator,1,MAC_070,MAC_071,14:00:00,22:00:00,148.87,True,260.52,Available,1.06,12
+WRK_149,FAC_014,Rambabu Varma,Machine Operator,2,MAC_071,MAC_067,06:00:00,14:00:00,194.99,True,341.23,Leave,1.03,12
+WRK_150,FAC_014,Jagadeesh Rao,Machine Operator,3,MAC_067,MAC_068,14:00:00,22:00:00,221.17,False,221.17,Training,1.08,8
+WRK_151,FAC_014,Nageswara Verma,Machine Operator,1,MAC_068,MAC_069,06:00:00,14:00:00,124.05,True,217.09,Limited Availability,0.93,12
+WRK_152,FAC_015,Venkatesh Sarma,Machine Operator,1,MAC_072,MAC_073,06:00:00,14:00:00,135.67,False,135.67,Available,1.04,8
+WRK_153,FAC_015,Chandra Kumar,Machine Operator,2,MAC_073,MAC_074,14:00:00,22:00:00,209.11,True,365.94,Available,1.09,12
+WRK_154,FAC_015,Subba Patnaik,Packaging Operator,3,MAC_074,MAC_075,06:00:00,14:00:00,235.48,True,412.09,Available,1.01,12
+WRK_155,FAC_015,Ganesh Naidu,Packaging Operator,1,MAC_075,MAC_072,14:00:00,22:00:00,134.09,True,234.66,Available,1.0,12
+WRK_156,FAC_015,Durga Vardhan,Packaging Operator,2,MAC_072,MAC_073,06:00:00,14:00:00,203.13,True,355.48,Leave,0.97,12
+WRK_157,FAC_015,Rajesh Reddy,Packaging Operator,3,MAC_073,MAC_074,14:00:00,22:00:00,258.97,False,258.97,Training,1.01,8
+WRK_158,FAC_015,Kiran Chowdary,Packaging Operator,1,MAC_074,MAC_075,06:00:00,14:00:00,132.32,True,231.56,Limited Availability,1.03,12
+WRK_159,FAC_015,Vijay Varma,Packaging Operator,2,MAC_075,MAC_072,14:00:00,22:00:00,201.57,True,352.75,Available,0.95,12
+WRK_160,FAC_015,Ramesh Rao,Packaging Operator,3,MAC_072,MAC_073,06:00:00,14:00:00,226.24,True,395.92,Available,0.92,12
+WRK_161,FAC_015,Suresh Verma,Process Operator,1,MAC_073,MAC_074,14:00:00,22:00:00,129.58,True,226.77,Available,1.08,12
+WRK_162,FAC_016,Venkat Sarma,Process Operator,1,MAC_078,MAC_079,06:00:00,14:00:00,124.38,False,124.38,Available,1.12,8
+WRK_163,FAC_016,Appala Kumar,Process Operator,2,MAC_079,MAC_080,14:00:00,22:00:00,205.49,True,359.61,Available,1.0,12
+WRK_164,FAC_016,Satyanarayana Patnaik,Quality Inspector,3,MAC_080,MAC_081,22:00:00,06:00:00,236.87,True,414.52,Available,1.1,12
+WRK_165,FAC_016,Prasad Naidu,Quality Inspector,1,MAC_081,MAC_082,06:00:00,14:00:00,148.84,True,260.47,Available,1.1,12
+WRK_166,FAC_016,Srinivas Vardhan,Quality Inspector,2,MAC_082,MAC_083,14:00:00,22:00:00,173.65,True,303.89,Leave,0.95,12
+WRK_167,FAC_016,Kalyan Reddy,Maintenance Technician,3,MAC_083,MAC_076,22:00:00,06:00:00,255.54,False,255.54,Training,1.11,8
+WRK_168,FAC_016,Mahesh Chowdary,Maintenance Technician,1,MAC_076,MAC_077,06:00:00,14:00:00,135.13,True,236.48,Limited Availability,1.06,12
+WRK_169,FAC_016,Rambabu Varma,Maintenance Technician,2,MAC_077,MAC_078,14:00:00,22:00:00,173.68,True,303.94,Available,1.0,12
+WRK_170,FAC_016,Jagadeesh Rao,Line Supervisor,3,MAC_078,MAC_079,22:00:00,06:00:00,269.14,True,471.0,Available,1.1,12
+WRK_171,FAC_016,Nageswara Verma,Machine Operator,1,MAC_079,MAC_080,06:00:00,14:00:00,127.67,True,223.42,Available,0.99,12
+WRK_172,FAC_016,Venkatesh Sarma,Machine Operator,2,MAC_080,MAC_081,14:00:00,22:00:00,203.3,False,203.3,Available,0.91,8
+WRK_173,FAC_016,Chandra Kumar,Machine Operator,3,MAC_081,MAC_082,22:00:00,06:00:00,249.04,True,435.82,Leave,1.11,12
+WRK_174,FAC_016,Subba Patnaik,Machine Operator,1,MAC_082,MAC_083,06:00:00,14:00:00,147.44,True,258.02,Training,1.09,12
+WRK_175,FAC_016,Ganesh Naidu,Machine Operator,2,MAC_083,MAC_076,14:00:00,22:00:00,184.83,True,323.45,Limited Availability,1.1,12
+WRK_176,FAC_016,Durga Vardhan,Machine Operator,3,MAC_076,MAC_077,22:00:00,06:00:00,234.72,True,410.76,Available,0.91,12
+WRK_177,FAC_016,Rajesh Reddy,Machine Operator,1,MAC_077,MAC_078,06:00:00,14:00:00,133.93,False,133.93,Available,1.1,8
+WRK_178,FAC_016,Kiran Chowdary,Machine Operator,2,MAC_078,MAC_079,14:00:00,22:00:00,202.96,True,355.18,Available,0.95,12
+WRK_179,FAC_017,Vijay Varma,Senior Machine Operator,1,MAC_089,MAC_084,06:00:00,14:00:00,121.98,False,121.98,Available,1.1,8
+WRK_180,FAC_017,Ramesh Rao,Senior Machine Operator,2,MAC_084,MAC_085,14:00:00,22:00:00,204.01,True,357.02,Available,1.03,12
+WRK_181,FAC_017,Suresh Verma,Senior Machine Operator,3,MAC_085,MAC_086,22:00:00,06:00:00,230.05,True,402.59,Available,1.0,12
+WRK_182,FAC_017,Venkat Sarma,Senior Machine Operator,1,MAC_086,MAC_087,06:00:00,14:00:00,123.39,True,215.93,Available,1.0,12
+WRK_183,FAC_017,Appala Kumar,Production Technician,2,MAC_087,MAC_088,14:00:00,22:00:00,163.67,True,286.42,Leave,0.93,12
+WRK_184,FAC_017,Satyanarayana Patnaik,Production Technician,3,MAC_088,MAC_089,22:00:00,06:00:00,250.76,False,250.76,Training,0.9,8
+WRK_185,FAC_017,Prasad Naidu,Production Technician,1,MAC_089,MAC_084,06:00:00,14:00:00,128.86,True,225.51,Limited Availability,1.1,12
+WRK_186,FAC_017,Srinivas Vardhan,Production Technician,2,MAC_084,MAC_085,14:00:00,22:00:00,198.51,True,347.39,Available,1.06,12
+WRK_187,FAC_017,Kalyan Reddy,Production Technician,3,MAC_085,MAC_086,22:00:00,06:00:00,245.63,True,429.85,Available,0.96,12
+WRK_188,FAC_017,Mahesh Chowdary,Electrical Technician,1,MAC_086,MAC_087,06:00:00,14:00:00,148.2,True,259.35,Available,1.01,12
+WRK_189,FAC_017,Rambabu Varma,Electrical Technician,2,MAC_087,MAC_088,14:00:00,22:00:00,199.7,False,199.7,Available,1.01,8
+WRK_190,FAC_017,Jagadeesh Rao,Electrical Technician,3,MAC_088,MAC_089,22:00:00,06:00:00,221.5,True,387.62,Leave,0.94,12
+WRK_191,FAC_017,Nageswara Verma,Electrical Technician,1,MAC_089,MAC_084,06:00:00,14:00:00,136.68,True,239.19,Training,0.95,12
+WRK_192,FAC_017,Venkatesh Sarma,Quality Inspector,2,MAC_084,MAC_085,14:00:00,22:00:00,187.99,True,328.98,Limited Availability,0.92,12
+WRK_193,FAC_017,Chandra Kumar,Quality Inspector,3,MAC_085,MAC_086,22:00:00,06:00:00,256.53,True,448.93,Available,1.08,12
+WRK_194,FAC_017,Subba Patnaik,Quality Inspector,1,MAC_086,MAC_087,06:00:00,14:00:00,144.34,False,144.34,Available,1.1,8
+WRK_195,FAC_017,Ganesh Naidu,Line Supervisor,2,MAC_087,MAC_088,14:00:00,22:00:00,206.01,True,360.52,Available,0.99,12
+WRK_196,FAC_018,Durga Vardhan,CNC Operator,1,MAC_094,MAC_095,06:00:00,14:00:00,140.68,False,140.68,Available,1.11,8
+WRK_197,FAC_018,Rajesh Reddy,CNC Operator,2,MAC_095,MAC_090,14:00:00,22:00:00,199.2,True,348.6,Available,1.0,12
+WRK_198,FAC_018,Kiran Chowdary,CNC Operator,3,MAC_090,MAC_091,22:00:00,06:00:00,239.79,True,419.63,Available,1.05,12
+WRK_199,FAC_018,Vijay Varma,CNC Operator,1,MAC_091,MAC_092,06:00:00,14:00:00,135.19,True,236.58,Available,1.09,12
+WRK_200,FAC_018,Ramesh Rao,CNC Operator,2,MAC_092,MAC_093,14:00:00,22:00:00,204.57,True,358.0,Leave,1.02,12
+WRK_201,FAC_018,Suresh Verma,CNC Operator,3,MAC_093,MAC_094,22:00:00,06:00:00,263.34,False,263.34,Training,0.94,8
+WRK_202,FAC_018,Venkat Sarma,CNC Operator,1,MAC_094,MAC_095,06:00:00,14:00:00,124.71,True,218.24,Limited Availability,0.9,12
+WRK_203,FAC_018,Appala Kumar,Welder,2,MAC_095,MAC_090,14:00:00,22:00:00,180.03,True,315.05,Available,0.98,12
+WRK_204,FAC_018,Satyanarayana Patnaik,Welder,3,MAC_090,MAC_091,22:00:00,06:00:00,249.93,True,437.38,Available,0.98,12
+WRK_205,FAC_018,Prasad Naidu,Welder,1,MAC_091,MAC_092,06:00:00,14:00:00,144.96,True,253.68,Available,0.94,12
+WRK_206,FAC_018,Srinivas Vardhan,Welder,2,MAC_092,MAC_093,14:00:00,22:00:00,207.45,False,207.45,Available,0.98,8
+WRK_207,FAC_018,Kalyan Reddy,Welder,3,MAC_093,MAC_094,22:00:00,06:00:00,231.08,True,404.39,Leave,1.08,12
+WRK_208,FAC_018,Mahesh Chowdary,Fabrication Operator,1,MAC_094,MAC_095,06:00:00,14:00:00,134.03,True,234.55,Training,1.06,12
+WRK_209,FAC_018,Rambabu Varma,Fabrication Operator,2,MAC_095,MAC_090,14:00:00,22:00:00,179.67,True,314.42,Limited Availability,1.07,12
+WRK_210,FAC_018,Jagadeesh Rao,Fabrication Operator,3,MAC_090,MAC_091,22:00:00,06:00:00,239.79,True,419.63,Available,1.04,12
+WRK_211,FAC_018,Nageswara Verma,Fabrication Operator,1,MAC_091,MAC_092,06:00:00,14:00:00,134.49,False,134.49,Available,0.98,8
+WRK_212,FAC_018,Venkatesh Sarma,Fabrication Operator,2,MAC_092,MAC_093,14:00:00,22:00:00,204.98,True,358.71,Available,1.09,12
+WRK_213,FAC_019,Chandra Kumar,Quality Inspector,1,MAC_101,MAC_102,06:00:00,14:00:00,124.01,False,124.01,Available,1.1,8
+WRK_214,FAC_019,Subba Patnaik,Quality Inspector,2,MAC_102,MAC_103,14:00:00,22:00:00,168.7,True,295.22,Available,0.95,12
+WRK_215,FAC_019,Ganesh Naidu,Machine Operator,3,MAC_103,MAC_096,22:00:00,06:00:00,257.26,True,450.2,Available,1.01,12
+WRK_216,FAC_019,Durga Vardhan,Machine Operator,1,MAC_096,MAC_097,06:00:00,14:00:00,132.8,True,232.4,Available,1.0,12
+WRK_217,FAC_019,Rajesh Reddy,Machine Operator,2,MAC_097,MAC_098,14:00:00,22:00:00,193.13,True,337.98,Leave,1.04,12
+WRK_218,FAC_019,Kiran Chowdary,Maintenance Technician,3,MAC_098,MAC_099,22:00:00,06:00:00,233.9,False,233.9,Training,0.92,8
+WRK_219,FAC_019,Vijay Varma,Maintenance Technician,1,MAC_099,MAC_100,06:00:00,14:00:00,142.82,True,249.94,Limited Availability,1.03,12
+WRK_220,FAC_019,Ramesh Rao,Line Supervisor,2,MAC_100,MAC_101,14:00:00,22:00:00,190.63,True,333.6,Available,1.03,12
+WRK_221,FAC_019,Suresh Verma,Process Operator,3,MAC_101,MAC_102,22:00:00,06:00:00,238.56,True,417.48,Available,1.04,12
+WRK_222,FAC_019,Venkat Sarma,Process Operator,1,MAC_102,MAC_103,06:00:00,14:00:00,147.93,True,258.88,Available,1.1,12
+WRK_223,FAC_019,Appala Kumar,Process Operator,2,MAC_103,MAC_096,14:00:00,22:00:00,207.09,False,207.09,Available,1.11,8
+WRK_224,FAC_019,Satyanarayana Patnaik,Process Operator,3,MAC_096,MAC_097,22:00:00,06:00:00,268.14,True,469.25,Leave,1.11,12
+WRK_225,FAC_019,Prasad Naidu,Process Operator,1,MAC_097,MAC_098,06:00:00,14:00:00,126.03,True,220.55,Training,0.93,12
+WRK_226,FAC_019,Srinivas Vardhan,Process Operator,2,MAC_098,MAC_099,14:00:00,22:00:00,161.7,True,282.97,Limited Availability,0.91,12
+WRK_227,FAC_020,Kalyan Reddy,Machine Operator,1,MAC_107,MAC_108,06:00:00,14:00:00,138.34,False,138.34,Available,1.1,8
+WRK_228,FAC_020,Mahesh Chowdary,Senior Machine Operator,2,MAC_108,MAC_109,14:00:00,22:00:00,166.55,True,291.46,Available,0.91,12
+WRK_229,FAC_020,Rambabu Varma,Senior Machine Operator,3,MAC_109,MAC_110,22:00:00,06:00:00,247.2,True,432.6,Available,0.94,12
+WRK_230,FAC_020,Jagadeesh Rao,Senior Machine Operator,1,MAC_110,MAC_104,06:00:00,14:00:00,140.53,True,245.93,Available,1.05,12
+WRK_231,FAC_020,Nageswara Verma,Senior Machine Operator,2,MAC_104,MAC_105,14:00:00,22:00:00,185.57,True,324.75,Leave,0.92,12
+WRK_232,FAC_020,Venkatesh Sarma,Senior Machine Operator,3,MAC_105,MAC_106,22:00:00,06:00:00,247.57,False,247.57,Training,0.99,8
+WRK_233,FAC_020,Chandra Kumar,Production Technician,1,MAC_106,MAC_107,06:00:00,14:00:00,141.29,True,247.26,Limited Availability,1.05,12
+WRK_234,FAC_020,Subba Patnaik,Production Technician,2,MAC_107,MAC_108,14:00:00,22:00:00,209.2,True,366.1,Available,0.91,12
+WRK_235,FAC_020,Ganesh Naidu,Production Technician,3,MAC_108,MAC_109,22:00:00,06:00:00,235.01,True,411.27,Available,0.95,12
+WRK_236,FAC_020,Durga Vardhan,Production Technician,1,MAC_109,MAC_110,06:00:00,14:00:00,130.05,True,227.59,Available,0.97,12
+WRK_237,FAC_020,Rajesh Reddy,Production Technician,2,MAC_110,MAC_104,14:00:00,22:00:00,197.99,False,197.99,Available,1.08,8
+WRK_238,FAC_020,Kiran Chowdary,Electrical Technician,3,MAC_104,MAC_105,22:00:00,06:00:00,225.14,True,394.0,Leave,0.96,12
+WRK_239,FAC_020,Vijay Varma,Electrical Technician,1,MAC_105,MAC_106,06:00:00,14:00:00,126.33,True,221.08,Training,1.05,12
+WRK_240,FAC_020,Ramesh Rao,Electrical Technician,2,MAC_106,MAC_107,14:00:00,22:00:00,175.14,True,306.5,Limited Availability,1.12,12
+WRK_241,FAC_020,Suresh Verma,Electrical Technician,3,MAC_107,MAC_108,22:00:00,06:00:00,229.22,True,401.13,Available,0.93,12
+WRK_242,FAC_020,Venkat Sarma,Quality Inspector,1,MAC_108,MAC_109,06:00:00,14:00:00,143.42,False,143.42,Available,1.11,8
+WRK_243,FAC_020,Appala Kumar,Quality Inspector,2,MAC_109,MAC_110,14:00:00,22:00:00,184.18,True,322.31,Available,0.98,12
+WRK_244,FAC_021,Satyanarayana Patnaik,Maintenance Technician,1,MAC_111,MAC_112,06:00:00,14:00:00,146.28,False,146.28,Available,0.97,8
+WRK_245,FAC_021,Prasad Naidu,Line Supervisor,2,MAC_112,MAC_113,14:00:00,22:00:00,207.69,True,363.46,Available,1.03,12
+WRK_246,FAC_021,Srinivas Vardhan,Process Operator,3,MAC_113,MAC_114,06:00:00,14:00:00,245.73,True,430.03,Available,1.02,12
+WRK_247,FAC_021,Kalyan Reddy,Process Operator,1,MAC_114,MAC_111,14:00:00,22:00:00,142.92,True,250.11,Available,1.1,12
+WRK_248,FAC_021,Mahesh Chowdary,Process Operator,2,MAC_111,MAC_112,06:00:00,14:00:00,193.92,True,339.36,Leave,0.91,12
+WRK_249,FAC_021,Rambabu Varma,Process Operator,3,MAC_112,MAC_113,14:00:00,22:00:00,247.14,False,247.14,Training,0.92,8
+WRK_250,FAC_021,Jagadeesh Rao,Process Operator,1,MAC_113,MAC_114,06:00:00,14:00:00,137.8,True,241.15,Limited Availability,0.98,12
+WRK_251,FAC_021,Nageswara Verma,Process Operator,2,MAC_114,MAC_111,14:00:00,22:00:00,181.87,True,318.27,Available,1.05,12
+WRK_252,FAC_021,Venkatesh Sarma,Process Operator,3,MAC_111,MAC_112,06:00:00,14:00:00,234.97,True,411.2,Available,0.97,12
+WRK_253,FAC_022,Chandra Kumar,CNC Operator,1,MAC_116,MAC_117,06:00:00,14:00:00,123.46,False,123.46,Available,0.93,8
+WRK_254,FAC_022,Subba Patnaik,Welder,2,MAC_117,MAC_118,14:00:00,22:00:00,183.16,True,320.53,Available,1.07,12
+WRK_255,FAC_022,Ganesh Naidu,Welder,3,MAC_118,MAC_119,22:00:00,06:00:00,255.61,True,447.32,Available,1.07,12
+WRK_256,FAC_022,Durga Vardhan,Welder,1,MAC_119,MAC_120,06:00:00,14:00:00,137.48,True,240.59,Available,1.02,12
+WRK_257,FAC_022,Rajesh Reddy,Welder,2,MAC_120,MAC_121,14:00:00,22:00:00,198.85,True,347.99,Leave,1.05,12
+WRK_258,FAC_022,Kiran Chowdary,Welder,3,MAC_121,MAC_115,22:00:00,06:00:00,248.23,False,248.23,Training,1.05,8
+WRK_259,FAC_022,Vijay Varma,Fabrication Operator,1,MAC_115,MAC_116,06:00:00,14:00:00,140.0,True,245.0,Limited Availability,0.99,12
+WRK_260,FAC_022,Ramesh Rao,Fabrication Operator,2,MAC_116,MAC_117,14:00:00,22:00:00,197.21,True,345.12,Available,1.02,12
+WRK_261,FAC_022,Suresh Verma,Fabrication Operator,3,MAC_117,MAC_118,22:00:00,06:00:00,245.86,True,430.25,Available,1.0,12
+WRK_262,FAC_022,Venkat Sarma,Fabrication Operator,1,MAC_118,MAC_119,06:00:00,14:00:00,136.52,True,238.91,Available,1.11,12
+WRK_263,FAC_022,Appala Kumar,Fabrication Operator,2,MAC_119,MAC_120,14:00:00,22:00:00,194.84,False,194.84,Available,1.05,8
+WRK_264,FAC_022,Satyanarayana Patnaik,Machine Operator,3,MAC_120,MAC_121,22:00:00,06:00:00,256.98,True,449.72,Leave,1.06,12
+WRK_265,FAC_022,Prasad Naidu,Machine Operator,1,MAC_121,MAC_115,06:00:00,14:00:00,127.78,True,223.62,Training,0.97,12
+WRK_266,FAC_022,Srinivas Vardhan,Machine Operator,2,MAC_115,MAC_116,14:00:00,22:00:00,197.43,True,345.5,Limited Availability,0.91,12
+WRK_267,FAC_022,Kalyan Reddy,Maintenance Technician,3,MAC_116,MAC_117,22:00:00,06:00:00,231.89,True,405.81,Available,1.11,12
+WRK_268,FAC_022,Mahesh Chowdary,Maintenance Technician,1,MAC_117,MAC_118,06:00:00,14:00:00,137.85,False,137.85,Available,0.98,8
+WRK_269,FAC_023,Rambabu Varma,Quality Inspector,1,MAC_126,MAC_122,06:00:00,14:00:00,136.22,False,136.22,Available,1.03,8
+WRK_270,FAC_023,Jagadeesh Rao,Line Supervisor,2,MAC_122,MAC_123,14:00:00,22:00:00,203.4,True,355.95,Available,0.96,12
+WRK_271,FAC_023,Nageswara Verma,Machine Operator,3,MAC_123,MAC_124,06:00:00,14:00:00,269.81,True,472.17,Available,1.02,12
+WRK_272,FAC_023,Venkatesh Sarma,Machine Operator,1,MAC_124,MAC_125,14:00:00,22:00:00,130.9,True,229.08,Available,0.91,12
+WRK_273,FAC_023,Chandra Kumar,Machine Operator,2,MAC_125,MAC_126,06:00:00,14:00:00,163.88,True,286.79,Leave,1.04,12
+WRK_274,FAC_023,Subba Patnaik,Machine Operator,3,MAC_126,MAC_122,14:00:00,22:00:00,261.66,False,261.66,Training,0.99,8
+WRK_275,FAC_023,Ganesh Naidu,Machine Operator,1,MAC_122,MAC_123,06:00:00,14:00:00,139.26,True,243.7,Limited Availability,1.01,12
+WRK_276,FAC_023,Durga Vardhan,Machine Operator,2,MAC_123,MAC_124,14:00:00,22:00:00,177.78,True,311.12,Available,1.1,12
+WRK_277,FAC_023,Rajesh Reddy,Machine Operator,3,MAC_124,MAC_125,06:00:00,14:00:00,222.74,True,389.8,Available,0.99,12
+WRK_278,FAC_023,Kiran Chowdary,Machine Operator,1,MAC_125,MAC_126,14:00:00,22:00:00,134.18,True,234.81,Available,1.11,12
+WRK_279,FAC_023,Vijay Varma,Senior Machine Operator,2,MAC_126,MAC_122,06:00:00,14:00:00,204.59,False,204.59,Available,1.0,8
+WRK_280,FAC_024,Ramesh Rao,Packaging Operator,1,MAC_128,MAC_129,06:00:00,14:00:00,136.73,False,136.73,Available,1.03,8
+WRK_281,FAC_024,Suresh Verma,Packaging Operator,2,MAC_129,MAC_127,14:00:00,22:00:00,176.0,True,308.0,Available,1.05,12
+WRK_282,FAC_024,Venkat Sarma,Packaging Operator,3,MAC_127,MAC_128,06:00:00,14:00:00,241.26,True,422.2,Available,1.02,12
+WRK_283,FAC_024,Appala Kumar,Packaging Operator,1,MAC_128,MAC_129,14:00:00,22:00:00,138.85,True,242.99,Available,0.95,12
+WRK_284,FAC_024,Satyanarayana Patnaik,Packaging Operator,2,MAC_129,MAC_127,06:00:00,14:00:00,180.65,True,316.14,Leave,0.97,12
+WRK_285,FAC_024,Prasad Naidu,Packaging Operator,3,MAC_127,MAC_128,14:00:00,22:00:00,261.78,False,261.78,Training,0.9,8
+WRK_286,FAC_024,Srinivas Vardhan,Process Operator,1,MAC_128,MAC_129,06:00:00,14:00:00,128.29,True,224.51,Limited Availability,1.05,12
+WRK_287,FAC_024,Kalyan Reddy,Process Operator,2,MAC_129,MAC_127,14:00:00,22:00:00,177.89,True,311.31,Available,1.06,12
+WRK_288,FAC_024,Mahesh Chowdary,Process Operator,3,MAC_127,MAC_128,06:00:00,14:00:00,229.31,True,401.29,Available,1.05,12
+WRK_289,FAC_024,Rambabu Varma,Process Operator,1,MAC_128,MAC_129,14:00:00,22:00:00,134.57,True,235.5,Available,0.9,12
+WRK_290,FAC_024,Jagadeesh Rao,Quality Inspector,2,MAC_129,MAC_127,06:00:00,14:00:00,169.31,False,169.31,Available,1.11,8
+WRK_291,FAC_025,Nageswara Verma,Quality Inspector,1,MAC_134,MAC_135,06:00:00,14:00:00,145.58,False,145.58,Available,0.91,8
+WRK_292,FAC_025,Venkatesh Sarma,Maintenance Technician,2,MAC_135,MAC_136,14:00:00,22:00:00,198.28,True,346.99,Available,1.05,12
+WRK_293,FAC_025,Chandra Kumar,Maintenance Technician,3,MAC_136,MAC_130,22:00:00,06:00:00,265.26,True,464.2,Available,0.99,12
+WRK_294,FAC_025,Subba Patnaik,Maintenance Technician,1,MAC_130,MAC_131,06:00:00,14:00:00,120.53,True,210.93,Available,1.02,12
+WRK_295,FAC_025,Ganesh Naidu,Line Supervisor,2,MAC_131,MAC_132,14:00:00,22:00:00,189.93,True,332.38,Leave,0.98,12
+WRK_296,FAC_025,Durga Vardhan,Machine Operator,3,MAC_132,MAC_133,22:00:00,06:00:00,268.12,False,268.12,Training,1.11,8
+WRK_297,FAC_025,Rajesh Reddy,Machine Operator,1,MAC_133,MAC_134,06:00:00,14:00:00,147.04,True,257.32,Limited Availability,1.08,12
+WRK_298,FAC_025,Kiran Chowdary,Machine Operator,2,MAC_134,MAC_135,14:00:00,22:00:00,203.95,True,356.91,Available,0.98,12
+WRK_299,FAC_025,Vijay Varma,Machine Operator,3,MAC_135,MAC_136,22:00:00,06:00:00,237.29,True,415.26,Available,0.95,12
+WRK_300,FAC_025,Ramesh Rao,Machine Operator,1,MAC_136,MAC_130,06:00:00,14:00:00,140.94,True,246.64,Available,0.96,12
+WRK_301,FAC_025,Suresh Verma,Machine Operator,2,MAC_130,MAC_131,14:00:00,22:00:00,178.68,False,178.68,Available,1.09,8
+WRK_302,FAC_025,Venkat Sarma,Machine Operator,3,MAC_131,MAC_132,22:00:00,06:00:00,268.74,True,470.3,Leave,1.05,12
+WRK_303,FAC_025,Appala Kumar,Machine Operator,1,MAC_132,MAC_133,06:00:00,14:00:00,146.52,True,256.41,Training,1.1,12
+WRK_304,FAC_025,Satyanarayana Patnaik,Machine Operator,2,MAC_133,MAC_134,14:00:00,22:00:00,209.56,True,366.73,Limited Availability,0.9,12
+WRK_305,FAC_026,Prasad Naidu,Packaging Operator,1,MAC_138,MAC_139,06:00:00,14:00:00,120.92,False,120.92,Available,0.98,8
+WRK_306,FAC_026,Srinivas Vardhan,Packaging Operator,2,MAC_139,MAC_140,14:00:00,22:00:00,182.93,True,320.13,Available,1.01,12
+WRK_307,FAC_026,Kalyan Reddy,Packaging Operator,3,MAC_140,MAC_137,06:00:00,14:00:00,261.84,True,458.22,Available,0.91,12
+WRK_308,FAC_026,Mahesh Chowdary,Packaging Operator,1,MAC_137,MAC_138,14:00:00,22:00:00,121.72,True,213.01,Available,1.0,12
+WRK_309,FAC_026,Rambabu Varma,Packaging Operator,2,MAC_138,MAC_139,06:00:00,14:00:00,204.03,True,357.05,Leave,1.03,12
+WRK_310,FAC_026,Jagadeesh Rao,Packaging Operator,3,MAC_139,MAC_140,14:00:00,22:00:00,227.95,False,227.95,Training,1.05,8
+WRK_311,FAC_026,Nageswara Verma,Process Operator,1,MAC_140,MAC_137,06:00:00,14:00:00,137.42,True,240.48,Limited Availability,1.07,12
+WRK_312,FAC_027,Venkatesh Sarma,Production Technician,1,MAC_141,MAC_142,06:00:00,14:00:00,141.8,False,141.8,Available,1.1,8
+WRK_313,FAC_027,Chandra Kumar,Production Technician,2,MAC_142,MAC_143,14:00:00,22:00:00,190.17,True,332.8,Available,0.98,12
+WRK_314,FAC_027,Subba Patnaik,Electrical Technician,3,MAC_143,MAC_144,06:00:00,14:00:00,268.97,True,470.7,Available,0.94,12
+WRK_315,FAC_027,Ganesh Naidu,Electrical Technician,1,MAC_144,MAC_141,14:00:00,22:00:00,146.32,True,256.06,Available,0.98,12
+WRK_316,FAC_027,Durga Vardhan,Electrical Technician,2,MAC_141,MAC_142,06:00:00,14:00:00,207.37,True,362.9,Leave,0.94,12
+WRK_317,FAC_027,Rajesh Reddy,Quality Inspector,3,MAC_142,MAC_143,14:00:00,22:00:00,239.17,False,239.17,Training,0.91,8
+WRK_318,FAC_027,Kiran Chowdary,Quality Inspector,1,MAC_143,MAC_144,06:00:00,14:00:00,147.0,True,257.25,Limited Availability,0.93,12
+WRK_319,FAC_027,Vijay Varma,Quality Inspector,2,MAC_144,MAC_141,14:00:00,22:00:00,189.2,True,331.1,Available,0.95,12
+WRK_320,FAC_027,Ramesh Rao,Line Supervisor,3,MAC_141,MAC_142,06:00:00,14:00:00,267.63,True,468.35,Available,1.05,12
+WRK_321,FAC_027,Suresh Verma,Machine Operator,1,MAC_142,MAC_143,14:00:00,22:00:00,133.69,True,233.96,Available,0.91,12
+WRK_322,FAC_027,Venkat Sarma,Machine Operator,2,MAC_143,MAC_144,06:00:00,14:00:00,165.66,False,165.66,Available,1.04,8
+WRK_323,FAC_028,Appala Kumar,CNC Operator,1,MAC_148,MAC_149,06:00:00,14:00:00,133.93,False,133.93,Available,1.05,8
+WRK_324,FAC_028,Satyanarayana Patnaik,CNC Operator,2,MAC_149,MAC_145,14:00:00,22:00:00,208.61,True,365.07,Available,1.1,12
+WRK_325,FAC_028,Prasad Naidu,CNC Operator,3,MAC_145,MAC_146,06:00:00,14:00:00,259.03,True,453.3,Available,1.07,12
+WRK_326,FAC_028,Srinivas Vardhan,CNC Operator,1,MAC_146,MAC_147,14:00:00,22:00:00,139.53,True,244.18,Available,0.97,12
+WRK_327,FAC_028,Kalyan Reddy,CNC Operator,2,MAC_147,MAC_148,06:00:00,14:00:00,172.71,True,302.24,Leave,1.04,12
+WRK_328,FAC_028,Mahesh Chowdary,CNC Operator,3,MAC_148,MAC_149,14:00:00,22:00:00,238.61,False,238.61,Training,1.01,8
+WRK_329,FAC_028,Rambabu Varma,Welder,1,MAC_149,MAC_145,06:00:00,14:00:00,138.51,True,242.39,Limited Availability,0.92,12
+WRK_330,FAC_028,Jagadeesh Rao,Welder,2,MAC_145,MAC_146,14:00:00,22:00:00,172.47,True,301.82,Available,0.93,12
+WRK_331,FAC_028,Nageswara Verma,Welder,3,MAC_146,MAC_147,06:00:00,14:00:00,230.59,True,403.53,Available,1.1,12
+WRK_332,FAC_028,Venkatesh Sarma,Welder,1,MAC_147,MAC_148,14:00:00,22:00:00,140.76,True,246.33,Available,0.99,12
+WRK_333,FAC_028,Chandra Kumar,Welder,2,MAC_148,MAC_149,06:00:00,14:00:00,203.85,False,203.85,Available,0.95,8
+WRK_334,FAC_029,Subba Patnaik,Packaging Operator,1,MAC_152,MAC_153,06:00:00,14:00:00,144.58,False,144.58,Available,1.03,8
+WRK_335,FAC_029,Ganesh Naidu,Packaging Operator,2,MAC_153,MAC_150,14:00:00,22:00:00,178.88,True,313.04,Available,0.9,12
+WRK_336,FAC_029,Durga Vardhan,Quality Inspector,3,MAC_150,MAC_151,06:00:00,14:00:00,246.17,True,430.8,Available,1.1,12
+WRK_337,FAC_029,Rajesh Reddy,Quality Inspector,1,MAC_151,MAC_152,14:00:00,22:00:00,147.39,True,257.93,Available,1.12,12
+WRK_338,FAC_029,Kiran Chowdary,Quality Inspector,2,MAC_152,MAC_153,06:00:00,14:00:00,177.41,True,310.47,Leave,1.01,12
+WRK_339,FAC_029,Vijay Varma,Quality Inspector,3,MAC_153,MAC_150,14:00:00,22:00:00,222.38,False,222.38,Training,1.11,8
+WRK_340,FAC_029,Ramesh Rao,Machine Operator,1,MAC_150,MAC_151,06:00:00,14:00:00,147.8,True,258.65,Limited Availability,1.01,12
+WRK_341,FAC_030,Suresh Verma,Electrical Technician,1,MAC_159,MAC_160,06:00:00,14:00:00,142.9,False,142.9,Available,1.02,8
+WRK_342,FAC_030,Venkat Sarma,Electrical Technician,2,MAC_160,MAC_154,14:00:00,22:00:00,183.09,True,320.41,Available,1.01,12
+WRK_343,FAC_030,Appala Kumar,Quality Inspector,3,MAC_154,MAC_155,22:00:00,06:00:00,239.05,True,418.34,Available,1.07,12
+WRK_344,FAC_030,Satyanarayana Patnaik,Quality Inspector,1,MAC_155,MAC_156,06:00:00,14:00:00,131.32,True,229.81,Available,1.05,12
+WRK_345,FAC_030,Prasad Naidu,Line Supervisor,2,MAC_156,MAC_157,14:00:00,22:00:00,177.77,True,311.1,Leave,1.0,12
+WRK_346,FAC_030,Srinivas Vardhan,Machine Operator,3,MAC_157,MAC_158,22:00:00,06:00:00,266.5,False,266.5,Training,1.08,8
+WRK_347,FAC_030,Kalyan Reddy,Machine Operator,1,MAC_158,MAC_159,06:00:00,14:00:00,127.9,True,223.83,Limited Availability,1.04,12
+WRK_348,FAC_030,Mahesh Chowdary,Machine Operator,2,MAC_159,MAC_160,14:00:00,22:00:00,204.82,True,358.44,Available,1.01,12
+WRK_349,FAC_030,Rambabu Varma,Machine Operator,3,MAC_160,MAC_154,22:00:00,06:00:00,227.23,True,397.65,Available,1.07,12
+WRK_350,FAC_030,Jagadeesh Rao,Machine Operator,1,MAC_154,MAC_155,06:00:00,14:00:00,122.34,True,214.09,Available,0.95,12
+WRK_351,FAC_030,Nageswara Verma,Machine Operator,2,MAC_155,MAC_156,14:00:00,22:00:00,176.31,False,176.31,Available,1.05,8
+WRK_352,FAC_030,Venkatesh Sarma,Machine Operator,3,MAC_156,MAC_157,22:00:00,06:00:00,227.26,True,397.7,Leave,1.11,12
+WRK_353,FAC_030,Chandra Kumar,Machine Operator,1,MAC_157,MAC_158,06:00:00,14:00:00,149.52,True,261.66,Training,1.08,12
+WRK_354,FAC_030,Subba Patnaik,Senior Machine Operator,2,MAC_158,MAC_159,14:00:00,22:00:00,185.42,True,324.48,Limited Availability,0.96,12
+WRK_355,FAC_031,Ganesh Naidu,Packaging Operator,1,MAC_161,MAC_162,06:00:00,14:00:00,123.15,False,123.15,Available,1.06,8
+WRK_356,FAC_031,Durga Vardhan,Packaging Operator,2,MAC_162,MAC_163,14:00:00,22:00:00,182.95,True,320.16,Available,1.03,12
+WRK_357,FAC_031,Rajesh Reddy,Packaging Operator,3,MAC_163,MAC_164,06:00:00,14:00:00,265.54,True,464.7,Available,0.93,12
+WRK_358,FAC_031,Kiran Chowdary,Packaging Operator,1,MAC_164,MAC_165,14:00:00,22:00:00,121.82,True,213.19,Available,0.91,12
+WRK_359,FAC_031,Vijay Varma,Packaging Operator,2,MAC_165,MAC_161,06:00:00,14:00:00,201.58,True,352.77,Leave,0.92,12
+WRK_360,FAC_031,Ramesh Rao,Packaging Operator,3,MAC_161,MAC_162,14:00:00,22:00:00,237.34,False,237.34,Training,0.96,8
+WRK_361,FAC_031,Suresh Verma,Quality Inspector,1,MAC_162,MAC_163,06:00:00,14:00:00,122.6,True,214.55,Limited Availability,0.9,12
+WRK_362,FAC_031,Venkat Sarma,Quality Inspector,2,MAC_163,MAC_164,14:00:00,22:00:00,183.09,True,320.41,Available,0.91,12
+WRK_363,FAC_032,Appala Kumar,Fabrication Operator,1,MAC_166,MAC_167,06:00:00,14:00:00,123.69,False,123.69,Available,1.1,8
+WRK_364,FAC_032,Satyanarayana Patnaik,Machine Operator,2,MAC_167,MAC_168,14:00:00,22:00:00,209.1,True,365.93,Available,0.97,12
+WRK_365,FAC_032,Prasad Naidu,Machine Operator,3,MAC_168,MAC_166,06:00:00,14:00:00,264.77,True,463.35,Available,0.97,12
+WRK_366,FAC_032,Srinivas Vardhan,Machine Operator,1,MAC_166,MAC_167,14:00:00,22:00:00,126.8,True,221.9,Available,1.08,12
+WRK_367,FAC_032,Kalyan Reddy,Machine Operator,2,MAC_167,MAC_168,06:00:00,14:00:00,189.72,True,332.01,Leave,1.1,12
+WRK_368,FAC_032,Mahesh Chowdary,Maintenance Technician,3,MAC_168,MAC_166,14:00:00,22:00:00,255.62,False,255.62,Training,0.91,8
+WRK_369,FAC_032,Rambabu Varma,Maintenance Technician,1,MAC_166,MAC_167,06:00:00,14:00:00,143.34,True,250.84,Limited Availability,0.99,12
+WRK_370,FAC_032,Jagadeesh Rao,Line Supervisor,2,MAC_167,MAC_168,14:00:00,22:00:00,179.15,True,313.51,Available,1.09,12
+WRK_371,FAC_032,Nageswara Verma,CNC Operator,3,MAC_168,MAC_166,06:00:00,14:00:00,224.19,True,392.33,Available,1.1,12
+WRK_372,FAC_032,Venkatesh Sarma,CNC Operator,1,MAC_166,MAC_167,14:00:00,22:00:00,145.18,True,254.06,Available,0.9,12
+WRK_373,FAC_033,Chandra Kumar,Machine Operator,1,MAC_171,MAC_172,06:00:00,14:00:00,134.86,False,134.86,Available,1.0,8
+WRK_374,FAC_033,Subba Patnaik,Machine Operator,2,MAC_172,MAC_173,14:00:00,22:00:00,188.51,True,329.89,Available,0.98,12
+WRK_375,FAC_033,Ganesh Naidu,Machine Operator,3,MAC_173,MAC_174,22:00:00,06:00:00,268.49,True,469.86,Available,1.12,12
+WRK_376,FAC_033,Durga Vardhan,Machine Operator,1,MAC_174,MAC_175,06:00:00,14:00:00,149.35,True,261.36,Available,0.99,12
+WRK_377,FAC_033,Rajesh Reddy,Machine Operator,2,MAC_175,MAC_169,14:00:00,22:00:00,179.59,True,314.28,Leave,0.97,12
+WRK_378,FAC_033,Kiran Chowdary,Machine Operator,3,MAC_169,MAC_170,22:00:00,06:00:00,237.92,False,237.92,Training,0.96,8
+WRK_379,FAC_033,Vijay Varma,Senior Machine Operator,1,MAC_170,MAC_171,06:00:00,14:00:00,139.78,True,244.62,Limited Availability,1.07,12
+WRK_380,FAC_033,Ramesh Rao,Senior Machine Operator,2,MAC_171,MAC_172,14:00:00,22:00:00,179.16,True,313.53,Available,1.02,12
+WRK_381,FAC_033,Suresh Verma,Senior Machine Operator,3,MAC_172,MAC_173,22:00:00,06:00:00,222.28,True,388.99,Available,0.9,12
+WRK_382,FAC_033,Venkat Sarma,Senior Machine Operator,1,MAC_173,MAC_174,06:00:00,14:00:00,134.95,True,236.16,Available,0.94,12
+WRK_383,FAC_033,Appala Kumar,Senior Machine Operator,2,MAC_174,MAC_175,14:00:00,22:00:00,190.31,False,190.31,Available,0.99,8
+WRK_384,FAC_033,Satyanarayana Patnaik,Production Technician,3,MAC_175,MAC_169,22:00:00,06:00:00,249.27,True,436.22,Leave,0.96,12
+WRK_385,FAC_033,Prasad Naidu,Production Technician,1,MAC_169,MAC_170,06:00:00,14:00:00,148.77,True,260.35,Training,0.92,12
+WRK_386,FAC_033,Srinivas Vardhan,Production Technician,2,MAC_170,MAC_171,14:00:00,22:00:00,197.71,True,345.99,Limited Availability,0.91,12
+WRK_387,FAC_033,Kalyan Reddy,Production Technician,3,MAC_171,MAC_172,22:00:00,06:00:00,223.47,True,391.07,Available,1.07,12
+WRK_388,FAC_033,Mahesh Chowdary,Production Technician,1,MAC_172,MAC_173,06:00:00,14:00:00,145.13,False,145.13,Available,0.91,8
+WRK_389,FAC_033,Rambabu Varma,Electrical Technician,2,MAC_173,MAC_174,14:00:00,22:00:00,197.06,True,344.86,Available,0.95,12
+WRK_390,FAC_033,Jagadeesh Rao,Electrical Technician,3,MAC_174,MAC_175,22:00:00,06:00:00,240.63,True,421.1,Available,0.96,12
+WRK_391,FAC_034,Nageswara Verma,Quality Inspector,1,MAC_182,MAC_176,06:00:00,14:00:00,140.86,False,140.86,Available,1.12,8
+WRK_392,FAC_034,Venkatesh Sarma,Quality Inspector,2,MAC_176,MAC_177,14:00:00,22:00:00,195.33,True,341.83,Available,1.11,12
+WRK_393,FAC_034,Chandra Kumar,Maintenance Technician,3,MAC_177,MAC_178,22:00:00,06:00:00,258.78,True,452.86,Available,0.91,12
+WRK_394,FAC_034,Subba Patnaik,Maintenance Technician,1,MAC_178,MAC_179,06:00:00,14:00:00,127.51,True,223.14,Available,1.04,12
+WRK_395,FAC_034,Ganesh Naidu,Line Supervisor,2,MAC_179,MAC_180,14:00:00,22:00:00,209.21,True,366.12,Leave,0.95,12
+WRK_396,FAC_034,Durga Vardhan,Machine Operator,3,MAC_180,MAC_181,22:00:00,06:00:00,254.57,False,254.57,Training,1.0,8
+WRK_397,FAC_034,Rajesh Reddy,Machine Operator,1,MAC_181,MAC_182,06:00:00,14:00:00,134.34,True,235.09,Limited Availability,0.99,12
+WRK_398,FAC_034,Kiran Chowdary,Machine Operator,2,MAC_182,MAC_176,14:00:00,22:00:00,188.43,True,329.75,Available,1.1,12
+WRK_399,FAC_034,Vijay Varma,Machine Operator,3,MAC_176,MAC_177,22:00:00,06:00:00,262.05,True,458.59,Available,1.09,12
+WRK_400,FAC_034,Ramesh Rao,Machine Operator,1,MAC_177,MAC_178,06:00:00,14:00:00,144.39,True,252.68,Available,0.91,12
+WRK_401,FAC_034,Suresh Verma,Machine Operator,2,MAC_178,MAC_179,14:00:00,22:00:00,187.41,False,187.41,Available,1.0,8
+WRK_402,FAC_034,Venkat Sarma,Machine Operator,3,MAC_179,MAC_180,22:00:00,06:00:00,256.35,True,448.61,Leave,0.9,12
+WRK_403,FAC_034,Appala Kumar,Machine Operator,1,MAC_180,MAC_181,06:00:00,14:00:00,149.97,True,262.45,Training,1.01,12
+WRK_404,FAC_034,Satyanarayana Patnaik,Machine Operator,2,MAC_181,MAC_182,14:00:00,22:00:00,174.63,True,305.6,Limited Availability,0.95,12
+WRK_405,FAC_034,Prasad Naidu,Packaging Operator,3,MAC_182,MAC_176,22:00:00,06:00:00,262.69,True,459.71,Available,1.05,12
+WRK_406,FAC_034,Srinivas Vardhan,Packaging Operator,1,MAC_176,MAC_177,06:00:00,14:00:00,142.37,False,142.37,Available,1.11,8
+WRK_407,FAC_034,Kalyan Reddy,Packaging Operator,2,MAC_177,MAC_178,14:00:00,22:00:00,194.48,True,340.34,Available,0.96,12
+WRK_408,FAC_035,Mahesh Chowdary,Packaging Operator,1,MAC_183,MAC_184,06:00:00,14:00:00,120.01,False,120.01,Available,1.1,8
+WRK_409,FAC_035,Rambabu Varma,Packaging Operator,2,MAC_184,MAC_185,14:00:00,22:00:00,200.87,True,351.52,Available,0.9,12
+WRK_410,FAC_035,Jagadeesh Rao,Packaging Operator,3,MAC_185,MAC_183,06:00:00,14:00:00,251.67,True,440.42,Available,1.0,12
+WRK_411,FAC_035,Nageswara Verma,Packaging Operator,1,MAC_183,MAC_184,14:00:00,22:00:00,129.07,True,225.87,Available,1.02,12
+WRK_412,FAC_035,Venkatesh Sarma,Process Operator,2,MAC_184,MAC_185,06:00:00,14:00:00,179.85,True,314.74,Leave,1.03,12
+WRK_413,FAC_035,Chandra Kumar,Process Operator,3,MAC_185,MAC_183,14:00:00,22:00:00,258.82,False,258.82,Training,1.11,8
+WRK_414,FAC_035,Subba Patnaik,Process Operator,1,MAC_183,MAC_184,06:00:00,14:00:00,128.25,True,224.44,Limited Availability,0.95,12
+WRK_415,FAC_036,Ganesh Naidu,Quality Inspector,1,MAC_189,MAC_186,06:00:00,14:00:00,122.56,False,122.56,Available,1.09,8
+WRK_416,FAC_036,Durga Vardhan,Quality Inspector,2,MAC_186,MAC_187,14:00:00,22:00:00,170.68,True,298.69,Available,1.07,12
+WRK_417,FAC_036,Rajesh Reddy,Quality Inspector,3,MAC_187,MAC_188,06:00:00,14:00:00,241.05,True,421.84,Available,0.93,12
+WRK_418,FAC_036,Kiran Chowdary,Maintenance Technician,1,MAC_188,MAC_189,14:00:00,22:00:00,141.66,True,247.91,Available,0.95,12
+WRK_419,FAC_036,Vijay Varma,Maintenance Technician,2,MAC_189,MAC_186,06:00:00,14:00:00,168.26,True,294.45,Leave,1.11,12
+WRK_420,FAC_036,Ramesh Rao,Line Supervisor,3,MAC_186,MAC_187,14:00:00,22:00:00,241.33,False,241.33,Training,0.91,8
+WRK_421,FAC_036,Suresh Verma,Line Supervisor,1,MAC_187,MAC_188,06:00:00,14:00:00,120.22,True,210.38,Limited Availability,0.91,12
+WRK_422,FAC_036,Venkat Sarma,Machine Operator,2,MAC_188,MAC_189,14:00:00,22:00:00,178.51,True,312.39,Available,0.96,12
+WRK_423,FAC_036,Appala Kumar,Machine Operator,3,MAC_189,MAC_186,06:00:00,14:00:00,252.2,True,441.35,Available,0.95,12
+WRK_424,FAC_036,Satyanarayana Patnaik,Machine Operator,1,MAC_186,MAC_187,14:00:00,22:00:00,127.13,True,222.48,Available,0.97,12
+WRK_425,FAC_037,Prasad Naidu,Machine Operator,1,MAC_192,MAC_190,06:00:00,14:00:00,123.59,False,123.59,Available,0.91,8
+WRK_426,FAC_037,Srinivas Vardhan,Machine Operator,2,MAC_190,MAC_191,14:00:00,22:00:00,187.24,True,327.67,Available,0.91,12
+WRK_427,FAC_037,Kalyan Reddy,Machine Operator,3,MAC_191,MAC_192,06:00:00,14:00:00,260.93,True,456.63,Available,1.08,12
+WRK_428,FAC_037,Mahesh Chowdary,Machine Operator,1,MAC_192,MAC_190,14:00:00,22:00:00,130.86,True,229.01,Available,1.07,12
+WRK_429,FAC_037,Rambabu Varma,Senior Machine Operator,2,MAC_190,MAC_191,06:00:00,14:00:00,175.3,True,306.78,Leave,1.1,12
+WRK_430,FAC_037,Jagadeesh Rao,Senior Machine Operator,3,MAC_191,MAC_192,14:00:00,22:00:00,247.25,False,247.25,Training,0.93,8
+WRK_431,FAC_037,Nageswara Verma,Senior Machine Operator,1,MAC_192,MAC_190,06:00:00,14:00:00,121.51,True,212.64,Limited Availability,0.94,12
+WRK_432,FAC_037,Venkatesh Sarma,Senior Machine Operator,2,MAC_190,MAC_191,14:00:00,22:00:00,183.65,True,321.39,Available,1.1,12
+WRK_433,FAC_037,Chandra Kumar,Senior Machine Operator,3,MAC_191,MAC_192,06:00:00,14:00:00,230.37,True,403.15,Available,0.94,12
+WRK_434,FAC_038,Subba Patnaik,Fabrication Operator,1,MAC_197,MAC_193,06:00:00,14:00:00,148.6,False,148.6,Available,1.05,8
+WRK_435,FAC_038,Ganesh Naidu,Fabrication Operator,2,MAC_193,MAC_194,14:00:00,22:00:00,206.1,True,360.68,Available,1.01,12
+WRK_436,FAC_038,Durga Vardhan,Fabrication Operator,3,MAC_194,MAC_195,06:00:00,14:00:00,256.62,True,449.09,Available,0.9,12
+WRK_437,FAC_038,Rajesh Reddy,Fabrication Operator,1,MAC_195,MAC_196,14:00:00,22:00:00,120.7,True,211.22,Available,0.96,12
+WRK_438,FAC_038,Kiran Chowdary,Fabrication Operator,2,MAC_196,MAC_197,06:00:00,14:00:00,160.93,True,281.63,Leave,1.11,12
+WRK_439,FAC_038,Vijay Varma,Machine Operator,3,MAC_197,MAC_193,14:00:00,22:00:00,245.26,False,245.26,Training,1.01,8
+WRK_440,FAC_038,Ramesh Rao,Machine Operator,1,MAC_193,MAC_194,06:00:00,14:00:00,125.97,True,220.45,Limited Availability,1.06,12
+WRK_441,FAC_038,Suresh Verma,Machine Operator,2,MAC_194,MAC_195,14:00:00,22:00:00,184.22,True,322.38,Available,1.0,12
+WRK_442,FAC_038,Venkat Sarma,Machine Operator,3,MAC_195,MAC_196,06:00:00,14:00:00,234.15,True,409.76,Available,1.09,12
+WRK_443,FAC_038,Appala Kumar,Maintenance Technician,1,MAC_196,MAC_197,14:00:00,22:00:00,132.46,True,231.81,Available,0.93,12
+WRK_444,FAC_038,Satyanarayana Patnaik,Maintenance Technician,2,MAC_197,MAC_193,06:00:00,14:00:00,168.6,False,168.6,Available,0.95,8
+WRK_445,FAC_039,Prasad Naidu,Maintenance Technician,1,MAC_199,MAC_200,06:00:00,14:00:00,129.78,False,129.78,Available,1.07,8
+WRK_446,FAC_039,Srinivas Vardhan,Line Supervisor,2,MAC_200,MAC_198,14:00:00,22:00:00,172.8,True,302.4,Available,1.03,12
+WRK_447,FAC_039,Kalyan Reddy,Process Operator,3,MAC_198,MAC_199,06:00:00,14:00:00,235.74,True,412.55,Available,1.09,12
+WRK_448,FAC_039,Mahesh Chowdary,Process Operator,1,MAC_199,MAC_200,14:00:00,22:00:00,134.24,True,234.92,Available,0.97,12
+WRK_449,FAC_039,Rambabu Varma,Process Operator,2,MAC_200,MAC_198,06:00:00,14:00:00,163.51,True,286.14,Leave,1.11,12
+WRK_450,FAC_039,Jagadeesh Rao,Process Operator,3,MAC_198,MAC_199,14:00:00,22:00:00,250.73,False,250.73,Training,0.97,8
+WRK_451,FAC_039,Nageswara Verma,Process Operator,1,MAC_199,MAC_200,06:00:00,14:00:00,135.22,True,236.63,Limited Availability,0.96,12
+WRK_452,FAC_039,Venkatesh Sarma,Process Operator,2,MAC_200,MAC_198,14:00:00,22:00:00,204.68,True,358.19,Available,1.04,12
+WRK_453,FAC_039,Chandra Kumar,Process Operator,3,MAC_198,MAC_199,06:00:00,14:00:00,256.74,True,449.3,Available,1.08,12
+WRK_454,FAC_039,Subba Patnaik,Process Operator,1,MAC_199,MAC_200,14:00:00,22:00:00,149.95,True,262.41,Available,1.0,12
+WRK_455,FAC_039,Ganesh Naidu,Packaging Operator,2,MAC_200,MAC_198,06:00:00,14:00:00,174.96,False,174.96,Available,0.93,8
+WRK_456,FAC_040,Durga Vardhan,Senior Machine Operator,1,MAC_201,MAC_202,06:00:00,14:00:00,122.62,False,122.62,Available,1.07,8
+WRK_457,FAC_040,Rajesh Reddy,Senior Machine Operator,2,MAC_202,MAC_203,14:00:00,22:00:00,191.39,True,334.93,Available,0.91,12
+WRK_458,FAC_040,Kiran Chowdary,Senior Machine Operator,3,MAC_203,MAC_204,22:00:00,06:00:00,230.34,True,403.1,Available,0.95,12
+WRK_459,FAC_040,Vijay Varma,Production Technician,1,MAC_204,MAC_205,06:00:00,14:00:00,129.06,True,225.86,Available,0.97,12
+WRK_460,FAC_040,Ramesh Rao,Production Technician,2,MAC_205,MAC_206,14:00:00,22:00:00,165.6,True,289.8,Leave,0.96,12
+WRK_461,FAC_040,Suresh Verma,Production Technician,3,MAC_206,MAC_207,22:00:00,06:00:00,259.09,False,259.09,Training,0.99,8
+WRK_462,FAC_040,Venkat Sarma,Production Technician,1,MAC_207,MAC_208,06:00:00,14:00:00,127.34,True,222.84,Limited Availability,0.96,12
+WRK_463,FAC_040,Appala Kumar,Production Technician,2,MAC_208,MAC_201,14:00:00,22:00:00,188.76,True,330.33,Available,1.1,12
+WRK_464,FAC_040,Satyanarayana Patnaik,Electrical Technician,3,MAC_201,MAC_202,22:00:00,06:00:00,255.45,True,447.04,Available,0.94,12
+WRK_465,FAC_040,Prasad Naidu,Electrical Technician,1,MAC_202,MAC_203,06:00:00,14:00:00,138.47,True,242.32,Available,0.96,12
+WRK_466,FAC_040,Srinivas Vardhan,Electrical Technician,2,MAC_203,MAC_204,14:00:00,22:00:00,208.32,False,208.32,Available,1.08,8
+WRK_467,FAC_040,Kalyan Reddy,Electrical Technician,3,MAC_204,MAC_205,22:00:00,06:00:00,249.13,True,435.98,Leave,1.05,12
+WRK_468,FAC_040,Mahesh Chowdary,Quality Inspector,1,MAC_205,MAC_206,06:00:00,14:00:00,135.3,True,236.78,Training,1.01,12
+WRK_469,FAC_040,Rambabu Varma,Quality Inspector,2,MAC_206,MAC_207,14:00:00,22:00:00,200.04,True,350.07,Limited Availability,1.11,12
