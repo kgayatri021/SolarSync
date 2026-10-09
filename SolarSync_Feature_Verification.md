@@ -11,7 +11,8 @@
 - The local app responded with `ok` from `http://localhost:8501/_stcore/health`.
 - Browser navigation to all seven entries below displayed the matching page heading; no visible Streamlit exception or dataset-load error was found during that navigation check.
 - The initial app context is `FAC_016` when present and 2026-08-10.
-- Navigating the pages did not manually submit Smart Scheduler or Scenario Simulator runs, test downloads, or independently validate each calculated value. Do not describe those interactions as browser-tested based on this inspection alone.
+- The recorded Smart Scheduler run returned `OPTIMAL`. A Scenario Simulator run completed and displayed its comparison results.
+- Export controls are visible in the recording, but no report was downloaded or validated. Displayed savings and energy values are modeled estimates, not independently verified results.
 
 ## Actual pages
 
@@ -19,8 +20,8 @@
 |---|---|---|
 | Executive Dashboard | Cluster KPIs, factory/date context, modeled solar/demand profile, baseline/candidate comparison, map visualizations, exports, and an automatic scheduler run with a five-second solver time limit. | Show actual current solver status and clarify that the dashboard runs its modeled schedule automatically. |
 | Factory Intelligence | Factory metadata, capacity cards, a solar chart, machine inventory, and a workforce skill table. Its demand curve is a hard-coded representative shape scaled by machine rated power. | Do not call its demand curve metered or actual hourly production demand. Avoid the table's employee names. |
-| Smart Scheduler | Objective dropdown, advanced solar-factor and time-limit controls, manual optimize button, result KPIs/charts/table/rationales, PDF/Excel/CSV exports. | Only electricity-cost minimization is implemented, regardless of dropdown selection. Verify solver status and export downloads during recording. |
-| Scenario Simulator | Scenario label, solar availability, solar capacity, production demand, peak-electricity-price controls, run button, impact summaries and charts. | Solar availability and solar capacity affect solar modeling. Do not claim the demand and tariff sliders alter results as currently wired. |
+| Smart Scheduler | Objective dropdown, advanced solar-factor and time-limit controls, manual optimize button, result KPIs/charts/table/rationales, PDF/Excel/CSV exports. | The submitted recording run returned `OPTIMAL`. Only electricity-cost minimization is implemented, regardless of dropdown selection. No export download was tested. |
+| Scenario Simulator | Scenario label, solar availability, solar capacity, production demand, peak-electricity-price controls, run button, impact summaries and charts. | A submitted run displayed comparison results. Solar availability and solar capacity affect solar modeling; the demand and tariff sliders do not currently alter results as presented. |
 | Energy & Workforce | Solar/weather location/date selectors, irradiance KPIs and charts, 3D solar visualization, workforce staffing chart and roster table. | Workforce analysis is separate from CP-SAT. The roster includes `worker_name`; do not reveal it in video. |
 | History & System Health | Historical energy summaries/charts, tariff reference chart, sample history table, seven-dataset validation matrix. | Dataset source/provenance is undocumented; call this supplied project data. |
 | About SOLAR SYNC | In-app problem/solution and constraint description. | Some About-page statements do not match enforcement in `src/scheduler.py`; use this report instead of repeating those claims. |
@@ -72,6 +73,11 @@
 
 ## Video and voice assets
 
-No `SolarSync_Demo.mp4`, `SolarSync_Voiceover.wav`, `SolarSync_Subtitles.srt`, or `SolarSync_Thumbnail.png` was generated. The environment inspection found no FFmpeg/FFprobe, OBS, Shotcut, Audacity, MoviePy, OpenCV, or equivalent recording/editing toolkit. The browser automation can navigate and inspect the app but does not provide a persistent MP4 screen recording.
+| Deliverable | Format and verification |
+|---|---|
+| `SolarSync_Demo.mp4` | 1920×1080 H.264/AAC, 30 FPS, approximately 5:54. Contains a real Edge recording of the running app, title cards, female narration, and burned-in captions. |
+| `SolarSync_Voiceover.wav` | 22050 Hz, mono, 16-bit PCM; narration mixed and timed to the video. |
+| `SolarSync_Subtitles.srt` | English sidecar subtitles aligned to the narration and scene sequence. |
+| `SolarSync_Thumbnail.png` | 1280×720 thumbnail composed around a genuine application screenshot. |
 
-The installed local `pyttsx3` voices are Microsoft David (US English, male), Microsoft Hazel (UK English, female), and Microsoft Zira (US English, female). None meets the requested Indian English female voice profile. No voice-over has been generated or mislabeled. Subtitles and thumbnail also depend on a genuine recorded/editable video and have not been fabricated.
+The voice is Microsoft Hazel Desktop, a synthetic female voice with a British English accent; an Indian English female voice was not available, so the voice has not been mislabeled. Caption timings are apportioned within each narrated segment and should be considered approximate at individual-word granularity. The video shows the submitted scheduler's `OPTIMAL` status and a completed scenario comparison. It does not claim that export files were downloaded, and it does not show the workforce roster.
